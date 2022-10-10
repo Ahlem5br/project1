@@ -1,0 +1,34 @@
+p{
+    float: center;
+    color: rgb(158, 123, 160);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  
+  #resultSum{
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin: 0em -0.3em -0.3em -0.3em;
+    padding: 0.3em;
+    font-size: 100%;
+    width: 25%;
+}
+
+  
+#resultmulti{
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin: 0em -0.3em -0.3em -0.3em;
+    padding: 0.3em;
+    font-size: 100%;
+    width: 25%;
+}
