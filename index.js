@@ -1,5 +1,4 @@
-$("#mainPage").css({"color":"rgb(28, 30, 117)", "text-align":"center","font-size": "300%"})
-$(".operator").css({"color":"black", "text-align":"left","font-size": "200%"})
+
 function calculateSum(){
     var a=document.getElementById("firstNumber").value;
     var b=document.getElementById("secondNumber").value;
@@ -21,11 +20,17 @@ function calculateMulti(){
     
 }
 function calculateFact(){
+    if((document.getElementById("Number").value).length===0){
+        alert('Enter a valid number!')
+    }
+    else{
     var a=parseInt(document.getElementById("Number").value);
    var b=1
+
 for (var i =1;i<=a;i++){
  b=b*i    
 }
+    }
 
 document.getElementById("resultfact").innerHTML="The result=" + b
 
