@@ -17,7 +17,7 @@ function calculateSubtract(){
 function calculateMulti(){
     var a=document.getElementById("firstNumbermult").value;
     var b=document.getElementById("secondNumbermult").value;
-    document.getElementById("resultmulti").innerHTML="The result=  "+(parseInt(a)*parseInt(b))
+    document.getElementById("resultmulti").innerHTML="multiplication=  "+(parseInt(a)*parseInt(b))
     
 }
 function calculateFact(){
@@ -31,8 +31,4 @@ document.getElementById("resultfact").innerHTML="The result=" + b
 
 }
 
-//function factorialWithFor(n) {
-    //var s = 1
-    //for (var i = 1; i <= n; i++) {
-      //  s = s * i
-    //} return s/*
+
